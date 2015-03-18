@@ -115,5 +115,6 @@ $pdf->ImprovedTable($header,$data);
 
 $pdf->AddPage();
 $pdf->FancyTable($header,$data);
-$pdf->Output('./pdf/temp.pdf','F','');
+// $pdf->Output('./pdf/temp.pdf','F','');
+$pdf->Output();
 ?>
